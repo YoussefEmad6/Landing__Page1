@@ -1,0 +1,68 @@
+.section-faq {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.section-faq .container__faq {
+  max-width: 1240px;
+  padding: 1rem;
+  margin: auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  /* gap: 320px; */
+}
+
+.section-faq h3 {
+  font-size: 28px;
+  padding: 1rem 0;
+}
+.facol-1 {
+  text-align: center;
+}
+.section-faq .facol-1 p {
+  color: var(--grey);
+}
+
+.section-faq .word {
+  color: var(--primary);
+}
+
+.section-faq h5 {
+  font-size: 1rem;
+  padding: 0.4rem 0;
+}
+
+.section-faq .faq {
+  padding: 1.2rem 0;
+}
+
+.section-faq .faq p {
+  color: var(--grey);
+  width: 400px;
+}
+.section-faq .facol-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.fqa__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.click {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .section-faq {
+    margin: 1rem 0;
+  }
+
+  .section-faq .container__faq {
+    grid-template-columns: 1fr;
+  }
+}
