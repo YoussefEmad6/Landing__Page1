@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="col solutions">
           <h6>Solutions</h6>
-          <ul>
+          {/* <ul>
             <li>
               <a href="#" className="link">
                 Marketing
@@ -104,7 +104,7 @@ const Footer = () => {
                 Terms
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="col-subscribe">
           <h6>Subscribe to our newsletter</h6>
