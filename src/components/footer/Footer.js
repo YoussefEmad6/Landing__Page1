@@ -31,26 +31,26 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        {/* <div className="col support">
+        <div className="col support">
           <h6>Support</h6>
           <ul>
             <li>
-              <a href="#" className="link">
+              <a href="#Pricing" className="link">
                 Pricing
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Documentation" className="link">
                 Documentation
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Guides" className="link">
                 Guides
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#API" className="link">
                 API Status
               </a>
             </li>
@@ -60,22 +60,22 @@ const Footer = () => {
           <h6>Company</h6>
           <ul>
             <li>
-              <a href="#" className="link">
+              <a href="#About" className="link">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Blog" className="link">
                 Blog
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Jops" className="link">
                 Jops
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Press" className="link">
                 Press
               </a>
             </li>
@@ -85,27 +85,27 @@ const Footer = () => {
           <h6>Legal</h6>
           <ul>
             <li>
-              <a href="#" className="link">
+              <a href="#Claim" className="link">
                 Claim
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Privacy" className="link">
                 Privacy
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Cookies" className="link">
                 Cookies
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Terms" className="link">
                 Terms
               </a>
             </li>
           </ul>
-        </div> */}
+        </div>
         <div className="col-subscribe">
           <h6>Subscribe to our newsletter</h6>
           <p>
