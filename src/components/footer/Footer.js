@@ -8,30 +8,30 @@ const Footer = () => {
       <div className="container">
         <div className="col solutions">
           <h6>Solutions</h6>
-          {/* <ul>
+          <ul>
             <li>
-              <a href="#" className="link">
+              <a href="#Marketing" className="link">
                 Marketing
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Analytics" className="link">
                 Analytics
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Commerce" className="link">
                 Commerce
               </a>
             </li>
             <li>
-              <a href="#" className="link">
+              <a href="#Insights" className="link">
                 Insights
               </a>
             </li>
           </ul>
         </div>
-        <div className="col support">
+        {/* <div className="col support">
           <h6>Support</h6>
           <ul>
             <li>
@@ -104,8 +104,8 @@ const Footer = () => {
                 Terms
               </a>
             </li>
-          </ul> */}
-        </div>
+          </ul>
+        </div> */}
         <div className="col-subscribe">
           <h6>Subscribe to our newsletter</h6>
           <p>
