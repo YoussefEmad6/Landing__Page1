@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMosquito, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -12,10 +13,26 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faMosquito} className="icon" />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">Home</li>
-          <li className="nav-item">Pricing</li>
-          <li className="nav-item">FAQ</li>
-          <li className="nav-item">Contact</li>
+          <li>
+            <Link className="nav-item" to="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-item" to="pricing">
+              Pricing
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-item" to="faq">
+              FAQ
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-item" to="contact">
+              Contact
+            </Link>
+          </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
           {click ? (

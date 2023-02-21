@@ -80,6 +80,58 @@ const Faq = () => {
               </p>
             ) : null}
           </div>
+          <div className="faq">
+            <div className="fqa__section">
+              <h5>How do you make holy water?</h5>
+              <span className="click" onClick={() => toggle(4)} key={4}>
+                {clicked === 4 ? (
+                  <FontAwesomeIcon
+                    icon={faMinus}
+                    size={"xl"}
+                    style={{ color: "black" }}
+                  />
+                ) : (
+                  <FontAwesomeIcon
+                    icon={faPlus}
+                    size={"xl"}
+                    style={{ color: "black" }}
+                  />
+                )}
+              </span>
+            </div>
+            {clicked === 4 ? (
+              <p>
+                You biol the hell out of it. Lorem ipsum dolor sit amet. Lorem
+                ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
+            ) : null}
+          </div>
+          <div className="faq">
+            <div className="fqa__section">
+              <h5>How do you make holy water?</h5>
+              <span className="click" onClick={() => toggle(3)} key={3}>
+                {clicked === 3 ? (
+                  <FontAwesomeIcon
+                    icon={faMinus}
+                    size={"xl"}
+                    style={{ color: "black" }}
+                  />
+                ) : (
+                  <FontAwesomeIcon
+                    icon={faPlus}
+                    size={"xl"}
+                    style={{ color: "black" }}
+                  />
+                )}
+              </span>
+            </div>
+            {clicked === 3 ? (
+              <p>
+                You biol the hell out of it. Lorem ipsum dolor sit amet. Lorem
+                ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
+            ) : null}
+          </div>
           {/* <div className="faq">
             <h5>How do you make holy water?</h5>
             <p>

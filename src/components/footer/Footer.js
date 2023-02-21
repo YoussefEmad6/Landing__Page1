@@ -50,7 +50,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#API" className="link">
+              <a href="#Company" className="link">
                 API Status
               </a>
             </li>
